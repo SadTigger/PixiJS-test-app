@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+menu {
+  position: fixed;
+  top: 10vh;
+  left: 5vw;
+  z-index: 1;
+}
+
+.start-button {
+  font-family: Arial;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+  stroke: #4a1850;
+  border: none;
+  background-image: -webkit-linear-gradient(#ffffff, #00ff99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
